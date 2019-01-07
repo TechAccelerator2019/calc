@@ -5,6 +5,8 @@
 #include <math.h>
 #include <string.h>
 
+
+
 #include "struct.h"
 #include "helpers.h"
 
@@ -106,7 +108,7 @@ int execute(struct token temp) {
 			d1 = outStack[--outCount];
 			
 			switch(temp.subType) {
-				case '_':
+                                case '_':
 					result = d1;
 					break;
 				case '~':
