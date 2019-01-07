@@ -11,7 +11,7 @@
 #define HELP_TEXT "Usage: calc [OPTION] <EXPRESSION>...\n\
 \n\
 Options\n\
-\n\
+\n\   
   The following flags can be used,\n\
 \n\
   1. -d, consider all angles to be degrees. Results are also in degrees.\n\
@@ -93,7 +93,8 @@ int execute(struct token temp) {
 					break;
 				case '^':
 					result = pow(d1, d2);
-					break;
+					break;	
+				
 			}
 		}
 		
