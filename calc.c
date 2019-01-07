@@ -94,6 +94,10 @@ int execute(struct token temp) {
 				case '^':
 					result = pow(d1, d2);
 					break;
+				case '^':
+					result = pow(d1, d2);
+					break;
+
 			}
 		}
 		
